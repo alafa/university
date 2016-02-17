@@ -1,27 +1,24 @@
 {
-  "name": "hapi-university",
-  "version": "0.0.1",
-  "description": "Community learning experiment",
-  "main": "lib/index.js",
+  "name": "university2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hapijs/university.git"
+    "url": "git+https://github.com/alafa/university.git"
   },
-  "keywords": [
-    "hapi",
-    "learn",
-    "community"
-  ],
-  "license": "BSD-3-Clause",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hapijs/university/issues"
+    "url": "https://github.com/alafa/university/issues"
   },
-  "homepage": "https://github.com/hapijs/university",
+  "homepage": "https://github.com/alafa/university#readme",
   "dependencies": {
-    "hapi": "12.x.x",
-    "hoek": "3.x.x"
-  },
-  "scripts": {
-    "start": "node lib/index.js"
+    "hapi": "^13.0.0",
+    "lab": "^8.2.0"
   }
 }
